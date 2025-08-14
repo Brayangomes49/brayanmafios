@@ -11,7 +11,7 @@ header {
 
 #logo {
     font: size 1.5rem;
-   color: blue;
+    color: blue;
     font-weight: 600;
 }
 
@@ -35,8 +35,8 @@ header {
     font-size: 25px;
     color: rgb(190, 13, 13);
 }
-.nav_item:hover{
+
+.nav_item:hover {
     background-color: rgb(118, 177, 60);
     color: blueviolet;
 }
-
