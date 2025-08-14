@@ -39,4 +39,5 @@ header {
 .nav_item:hover {
     background-color: rgb(118, 177, 60);
     color: blueviolet;
+    text-decoration: underline;
 }
