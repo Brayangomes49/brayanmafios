@@ -32,5 +32,6 @@ header {
 }
 
 .nav_item {
-    
+    font-size: 25px;
+    color: rgb(190, 13, 13);
 }
