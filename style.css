@@ -36,7 +36,7 @@ header {
     color: rgb(190, 13, 13);
 }
 .nav_item:hover{
-    background-color: chartreuse;
+    background-color: rgb(118, 177, 60);
     color: blueviolet;
 }
 
