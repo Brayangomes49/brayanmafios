@@ -35,3 +35,8 @@ header {
     font-size: 25px;
     color: rgb(190, 13, 13);
 }
+.nav_item a:hover{
+    background-color: chartreuse;
+}
+
+
