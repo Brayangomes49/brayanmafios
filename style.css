@@ -45,5 +45,21 @@ header {
 .home{
     display: flex;
     min-height: calc(100vh - 91px);
+
+    
 }
+section{
+    width:100% ;
+    padding: 20px;
+    display: flex;
+}
+.titulo{
+    font-size: 4rem ;
+    color: brown;
+}
+.titulo{
+    color: chartreuse;
+}
+
+    
 
