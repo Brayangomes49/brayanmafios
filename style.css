@@ -54,7 +54,7 @@ section{
     display: flex;
 }
 .titulo{
-    font-size: 4rem ;
+    font-size: 20px;
     color: brown;
     justify-content: center;
 }
