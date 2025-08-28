@@ -17,6 +17,11 @@
             <i class="fa-solid fa-music" ; id="logo"> chapa</i>
             <ul class="nav_lista">
                 <li class="nav_item">funk</li>
+                <button class="menu-toggle" id="menuToggle">
+                    <spam></spam>
+                    <spam></spam>
+                    <spam></spam>
+                </button>
                 <li class="nav_item">sertanejo</li>
                 <li class="nav_item">verso</li>
 
@@ -27,12 +32,30 @@
     </header>
     <main class="conteudo">
         <section class="home">
-            <h1 style="font-size: 40px;" class="conteudo">
+            <h1 style="font-size: 30px;" class="conteudo">
                 A melhor seleção da musica <span class="titulocor">verso funk sertanejo</span>
             </h1>
         </section>
     </main>
-
+<script>
+        // JavaScript para controlar o menu hambúrguer
+        const menuToggle = document.getElementById('menuToggle');
+        const navLista = document.getElementById('navLista');
+        
+        menuToggle.addEventListener('click', function() {
+            navLista.classList.toggle('active');
+            menuToggle.classList.toggle('active');
+        });
+        
+        // Fechar menu ao clicar em um item
+        const navItems = document.querySelectorAll('.nav_item');
+        navItems.forEach(item => {
+            item.addEventListener('click', function() {
+                navLista.classList.remove('active');
+                menuToggle.classList.remove('active');
+            });
+        });
+    </script>
 </body>
 
 </html>
