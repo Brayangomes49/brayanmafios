@@ -18,6 +18,9 @@ header {
     font: size 1.5rem;
     color: blue;
     font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 8px;
 }
 
 
@@ -55,11 +58,18 @@ header {
     .nav_item {
         font-size: 25px;
         color: rgb(190, 13, 13);
-        cursor: pointer;
+        
+        justify-content: center;cursor: pointer;
         transition: all 0.3s ease;
     }
 
-    .nav_item:hover {
+    .nav_item:hover
+
+
+
+
+
+ {
         background-color: rgb(118, 177, 60);
         color: blueviolet;
         text-decoration: underline;
@@ -77,12 +87,14 @@ header {
         width: 100%;
         padding: 20px 8%;
         display: flex;
+        justify-content: center;
     }
 
     .titulo {
         font-size: 20px;
         color: brown;
-        justify-content: center;
+        width: 100%;
+        text-align: center;
     }
 
     .titulocor {
