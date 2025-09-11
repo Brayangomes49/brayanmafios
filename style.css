@@ -22,7 +22,6 @@ header {
 
 .navbar {
     width: 100%;
-    font-size: 50px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -67,6 +66,16 @@ section{
 .titulocor{
     color: rgb(255, 51, 0);
 }
-
-    
-
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    background: none;
+    padding: 5px;
+     }
+.menu-toggle {
+    width: 25px;
+    height: 3px;
+    background-color: rgb(241, 244, 247);
+    margin: 3px 0;
+    }
