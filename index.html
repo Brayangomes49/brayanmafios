@@ -38,26 +38,40 @@
                 A melhor seleção da musica <span class="titulocor">verso funk sertanejo</span>
             </h1>
         </section>
-    </main>
-    <script>
-        // JavaScript para controlar o menu hambúrguer
-        const menuToggle = document.getElementById('menuToggle');
-        const navLista = document.getElementById('navLista');
 
-        menuToggle.addEventListener('click', function () {
-            navLista.classList.toggle('active');
-            menuToggle.classList.toggle('active');
-        });
+        <section class="secao" id="Rock">
+            <div class="titulo_section">
+                <h1><i class="fa-solid fa-guitar">Rock</i></h1>
+            </div>
+            <ul class="moldura_videos">
+                <li class="video">
 
-        // Fechar menu ao clicar em um item
-        const navItems = document.querySelectorAll('.nav_item');
-        navItems.forEach(item => {
-            item.addEventListener('click', function () {
-                navLista.classList.remove('active');
-                menuToggle.classList.remove('active');
+                </li>
+            </ul>
+
+        </section>
+
+
+
+        <script>
+            // JavaScript para controlar o menu hambúrguer
+            const menuToggle = document.getElementById('menuToggle');
+            const navLista = document.getElementById('navLista');
+
+            menuToggle.addEventListener('click', function () {
+                navLista.classList.toggle('active');
+                menuToggle.classList.toggle('active');
             });
-        });
-    </script>
+
+            // Fechar menu ao clicar em um item
+            const navItems = document.querySelectorAll('.nav_item');
+            navItems.forEach(item => {
+                item.addEventListener('click', function () {
+                    navLista.classList.remove('active');
+                    menuToggle.classList.remove('active');
+                });
+            });
+        </script>
 </body>
 
 </html>
