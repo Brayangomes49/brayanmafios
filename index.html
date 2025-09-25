@@ -15,6 +15,7 @@
     <header class="cabecalho">
         <nav class="navbar">
             <i class="fa-solid fa-music" ; id="logo"> chapa</i>
+
             <ul class="nav_lista" id="navLista">
                 <button class="menu-toggle" id="menuToggle">
                     <span></span>
@@ -37,20 +38,20 @@
             </h1>
         </section>
     </main>
-<script>
+    <script>
         // JavaScript para controlar o menu hambúrguer
         const menuToggle = document.getElementById('menuToggle');
         const navLista = document.getElementById('navLista');
-        
-        menuToggle.addEventListener('click', function() {
+
+        menuToggle.addEventListener('click', function () {
             navLista.classList.toggle('active');
             menuToggle.classList.toggle('active');
         });
-        
+
         // Fechar menu ao clicar em um item
         const navItems = document.querySelectorAll('.nav_item');
         navItems.forEach(item => {
-            item.addEventListener('click', function() {
+            item.addEventListener('click', function () {
                 navLista.classList.remove('active');
                 menuToggle.classList.remove('active');
             });
