@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=BBH+Sans+Bartle&family=BBH+Sans+Bogle&display=swap');
 
+:root {
+--cor-primaria-1: #53B3CB ;
+--cor-primaria-2: #F9C22E ;
+--cor-primaria-3: #F15946 ;
+--cor-primaria-4: #E01A4F ;
+--cor-primaria-5: #0C090D ;
+
+    
+    
+}
+
 * {
     margin: 0;
     padding: 0;
