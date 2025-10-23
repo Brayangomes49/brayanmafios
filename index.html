@@ -23,9 +23,10 @@
                 <span></span>
             </button>
             <ul class="nav_lista" id="navLista">
-                <li class="nav_item">funk</li>
-                <li class="nav_item">sertanejo</li>
-                <li class="nav_item">verso</li>
+
+                <li class="nav_item"><a href="#funk">funk</a></li>
+                <li class="nav_item"><a href="#sertanejo">sertanejo</a></li>
+                <li class="nav_item"><a href="#verso">verso</a></li>
 
             </ul>
 
@@ -64,7 +65,7 @@
             });
 
             // Fechar menu ao clicar em um item
-            const navItems = document.querySelectorAll('.nav_item');
+            const navItems = document.querySelectorAll('.nav_item'); 171505
             navItems.forEach(item => {
                 item.addEventListener('click', function () {
                     navLista.classList.remove('active');
