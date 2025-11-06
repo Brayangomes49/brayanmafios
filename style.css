@@ -118,7 +118,7 @@ moldura  videos {
     justify-content: center;
 }
 
-. video iframe {
+.video iframe {
     width: 100%;
     height:auto ;
     aspect-ratio: 16/9;
