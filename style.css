@@ -2,7 +2,7 @@
 
 :root {
     --cor-primaria-1: #53B3CB;
-    --cor-primaria-2: #F9C22E;
+    --cor-primaria-2: #fc0915;
     --cor-primaria-3: #F15946;
     --cor-primaria-4: #E01A4F;
     --cor-primaria-5: #0C090D;
@@ -21,7 +21,7 @@
 header {
     width: 100%;
     padding: 20px 8%;
-    background-color: blueviolet;
+    background-color: var(--cor-primaria-1);
     position: fixed;
     top: 0;
     left: 0;
@@ -30,7 +30,7 @@ header {
 
 #logo {
     font-size: 1.5rem;
-    color: white;
+    color: rgb(121, 37, 37);
     font-weight: 600;
     display: flex;
     align-items: center;
